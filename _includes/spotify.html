@@ -1,0 +1,21 @@
+<div class="embed-container-spotify">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ include.id }}?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+<style>
+.embed-container-spotify {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container-spotify iframe,
+.embed-container-spotify object,
+.embed-container-spotify embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
